@@ -1,13 +1,14 @@
 import React from 'react'
 import logo from '../assets/images/logo.svg'
-import { navLinks } from '../constants'
+import { navIcons, navLinks } from '../constants'
+import dayjs from 'dayjs'
 
 export default function NavBar() {
     return (
         <nav>
             <div>
                 <img src={logo} alt="" />
-                <p className='font-bold'>Lee Hour's portfolio</p>
+                <p className='font-bold text-nowrap'>Lee Hour's portfolio</p>
 
                 <ul>
                     {navLinks.map(({ id, name }) => (
@@ -16,6 +17,19 @@ export default function NavBar() {
                         </li>
                     ))}
                 </ul>
+            </div>
+
+            <div>
+                <ul>
+                    {navIcons.map(({ id, img }) => (
+                        <li key={id} className='icon-hover cursor-pointer'>
+                            <img src={img} alt="" />
+                        </li>
+                    ))
+                    }
+                </ul>
+
+                <time className='text-nowrap' datetime="">{dayjs().format('ddd MMM D h:mm A')}</time>
             </div>
         </nav>
     )
