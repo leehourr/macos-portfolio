@@ -7,8 +7,8 @@ const SEO = ({ title, description, keywords, image, url }) => {
     "Lee Hour's Full Stack Developer Portfolio - Showcasing projects, skills, and experience in a macOS-style interface.";
   const defaultKeywords =
     "Lee Hour, Portfolio, Full Stack Developer, React, macOS, Web Developer";
-  const defaultImage = "/macbook.png"; // Ensure this exists or use a screenshot
-  const siteUrl = "https://leehour.dev"; // Replace with actual URL
+  const defaultImage = "https://leehour.dev/graph.webp";
+  const siteUrl = "https://leehour.dev";
 
   return (
     <Helmet>

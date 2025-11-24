@@ -105,13 +105,13 @@ const Finder = () => {
           {activeLocation.children.map((item) => (
             <li
               key={item.id}
-              className={item.position}
+              className={`${item.position} cursor-pointer touch-manipulation`}
               onClick={() => {
                 openItem(item);
               }}
             >
-              <img src={item.icon} className="" alt="" />
-              <p className="">{item.name}</p>
+              <img src={item.icon} className="pointer-events-none" alt="" />
+              <p className="pointer-events-none">{item.name}</p>
             </li>
           ))}
         </ul>

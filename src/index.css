@@ -239,10 +239,10 @@ body {
       @apply flex items-center gap-3 max-sm:grid max-sm:grid-cols-2;
 
       li {
-        @apply rounded-lg p-3 w-60 hover:-translate-y-0.5 hover:scale-105 origin-center transition-all duration-300 max-sm:w-auto;
+        @apply rounded-lg w-60 max-sm:w-auto;
 
         a {
-          @apply space-y-5;
+          @apply flex items-center gap-3 p-3 hover:-translate-y-0.5 hover:scale-105 origin-center transition-all duration-300;
         }
 
         p {
