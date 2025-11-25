@@ -363,7 +363,8 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/me.webp",
       description: [
-        "Hey! I’m Lee Hour 👋, a developer who enjoys building sleek, interactive websites and web applications that actually work well.",
+        "Hey! I’m Lee Hour 👋,",
+        "A developer who enjoys building sleek, interactive websites and web applications that actually work well.",
         "I’m strong in JavaScript, React, and Next.js for the front-end, and Laravel for the API back-end—and I love making things feel smooth, fast, and just a little bit delightful.",
         "I believe in code that's fast to load and easy to maintain, delivered with a polished, user-first experience.",
         "Outside of dev work, you'll find me tweaking layouts at 2 AM, sipping coffee, or jumping down a rabbit hole of new tech and concepts that I've convinced myself I absolutely need to learn (and probably won't use for a year). 🧑‍💻",
