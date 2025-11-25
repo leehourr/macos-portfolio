@@ -15,7 +15,7 @@ const renderText = (text, className, baseWeight = 400) => {
 };
 
 const FONT_WEIGHTS = {
-  subtitle: { min: 500, max: 900, default: 500 },
+  subtitle: { min: 300, max: 800, default: 300 },
   title: { min: 400, max: 900, default: 400 },
 };
 
