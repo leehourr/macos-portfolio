@@ -52,6 +52,7 @@ const Finder = () => {
                   className={clsx(
                     item.id === activeLocation.id ? "active" : "not-active"
                   )}
+                  data-clickable="true"
                   onClick={() => {
                     setActiveLocation(item);
                     setShowSidebar(false);
@@ -88,6 +89,7 @@ const Finder = () => {
                     item.id === activeLocation.id ? "active" : "not-active"
                   )}
                   key={item.id}
+                  data-clickable="true"
                   onClick={() => {
                     setActiveLocation(item);
                     setShowSidebar(false);
@@ -106,6 +108,7 @@ const Finder = () => {
             <li
               key={item.id}
               className={`${item.position} cursor-pointer touch-manipulation`}
+              data-clickable="true"
               onClick={() => {
                 openItem(item);
               }}
