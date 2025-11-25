@@ -2,11 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const SEO = ({ title, description, keywords, image, url }) => {
-  const siteTitle = "Lee Hour's Portfolio";
+  const siteTitle = "Leang Lyhour - Full Stack Web Developer Portfolio";
   const defaultDescription =
-    "Lee Hour's Full Stack Developer Portfolio - Showcasing projects, skills, and experience in a macOS-style interface.";
+    "Leang Lyhour - Full Stack Developer with hands-on experience in building responsive web and mobile applications. Passionate about exploring new frameworks, contributing to innovative projects, and delivering user-focused solutions. View my portfolio showcasing real-world projects and technical expertise.";
   const defaultKeywords =
-    "Lee Hour, Portfolio, Full Stack Developer, React, macOS, Web Developer";
+    "Leang Lyhour, Lee Hour, Full Stack Developer, Web Developer, Frontend Developer, Backend Developer, React Developer, JavaScript Developer, Responsive Web Design, Mobile Applications, Node.js, Express, MongoDB, HTML, CSS, Portfolio, Cambodia Developer, Software Engineer, UI/UX, User-Centered Design";
   const defaultImage = "https://leehour.dev/graph.webp";
   const siteUrl = "https://leehour.dev";
 
