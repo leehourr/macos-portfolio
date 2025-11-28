@@ -138,6 +138,55 @@ const WORK_LOCATION = {
   children: [
     // ▶ Project 1
     {
+      id: 11,
+      name: "Built with webflow",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-80 left-20",
+      windowPosition: "top-[10vh] right-70",
+      children: [
+        {
+          id: 1,
+          name: "webflow practice.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Graphing the Concepts of Component, CMS, Collection Page, Collection List, and Dynamic SEO in Webflow.",
+          ],
+        },
+        // {
+        //   id: 4,
+        //   name: "Team app.png",
+        //   icon: "/images/image.png",
+        //   kind: "file",
+        //   fileType: "img",
+        //   position: "top-52 right-80",
+        //   imageUrl: "/images/tattoo-studio.png",
+        // }
+        {
+          id: 2,
+          name: "Team app.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://leangs-fantastic-site.webflow.io/",
+          position: "top-30 left-50",
+        },
+        {
+          id: 3,
+          name: "Practicing",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://www.behance.net/gallery/118547609/Lab-UI-UX-Design#",
+          position: "top-52 left-80",
+        },
+      ],
+    },
+
+    {
       id: 5,
       name: "Apparel Ecommerce Web Application",
       icon: "/images/folder.png",
